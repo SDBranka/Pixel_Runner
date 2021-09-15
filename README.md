@@ -1,3 +1,11 @@
+Improvement Upon:
+https://github.com/SDBranka/The_Ultimate_Introduction_to_Pygame.git
+
+and
+
+https://github.com/SDBranka/Sprites-The_Ultimate_Introduction_to_Pygame.git
+
+
 YouTube Video:
 https://youtu.be/AY9MnQ4x3zk
 

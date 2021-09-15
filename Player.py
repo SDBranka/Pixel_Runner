@@ -7,19 +7,25 @@ class Player(pygame.sprite.Sprite):
         player_walk_1 = pygame.image.load("img/player/player_walk_1.png").convert_alpha()
         player_walk_2 = pygame.image.load("img/player/player_walk_2.png").convert_alpha()
         # list containing the two walk animation pics controlled by player_index
+        self.player_walk = [player_walk_1, player_walk_2]
         self.player_index = 0
         self.player_jump = pygame.image.load("img/player/jump.png").convert_alpha()
-        self.player_walk = [player_walk_1, player_walk_2]
 
         self.image = self.player_walk[self.player_index]
-        self.rect = self.image.get_rect(midbottom = (200, 300))
+        self.rect = self.image.get_rect(midbottom = (80, 300))
         self.gravity = 0
+
+        path_to_sound = "audio/jump.mp3"
+        self.jump_sound = pygame.mixer.Sound(path_to_sound)
+        # set sound volume. Between 0(silent) and 1(full volume)
+        self.jump_sound.set_volume(0.2)
 
     def player_input(self):
         keys = pygame.key.get_pressed()
         # if player is on the ground and space bar is pressed player jump
         if keys[pygame.K_SPACE] and self.rect.bottom >= 300:
-            self.gravity = -20
+            self.gravity = -21
+            self.jump_sound.play()
 
     def apply_gravity(self):
         self.gravity += 1
@@ -44,3 +50,4 @@ class Player(pygame.sprite.Sprite):
         self.player_input()
         self.apply_gravity()
         self.animation_state()
+
