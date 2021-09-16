@@ -1,5 +1,7 @@
 # Pixel Runner
 
+![Project Image]("img/Sky.png")
+
 ##### Table of Contents
 
 - [Description](#description)

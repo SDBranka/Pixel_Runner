@@ -2,7 +2,6 @@ import pygame, math
 from Player import Player
 
 
-# setup
 # initialize pygame
 pygame.init()
 # setup display surface
