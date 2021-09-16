@@ -1,7 +1,5 @@
 # Pixel Runner
 
-![Project Image]("https://github.com/SDBranka/Pixel_Runner/blob/main/img/Sky.png")
-
 ##### Table of Contents
 
 - [Description](#description)
