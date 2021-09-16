@@ -1,15 +1,11 @@
-![Project Image](project-image-url)
-
----
+# Pixel Runner
 
 ### Table of Contents
-You're sections headers will be used to reference location of destination.
 
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [References](#references)
-- [OP Code](#op-code)
-- [Art and Audio Assets](#art_and_audio_assets)
+- [Art And Audio Assets](#art_and_audio_assets)
 
 ---
 
@@ -17,7 +13,11 @@ You're sections headers will be used to reference location of destination.
 
 A side scrolling game where a player must avoid incoming obstalces.
 
-#### Technologies
+##### Controls
+
+Press space bar to jump.
+
+##### Technologies
 
 - Python
 - Pygame
@@ -32,20 +32,21 @@ Download or clone this repository to your desktop. Click on the file Pixel Runne
 ---
 
 ## References
+
+##### Continuing Work on
+
 - https://github.com/SDBranka/Sprites-The_Ultimate_Introduction_to_Pygame.git
+
+##### Original YouTube Reference
+
 - https://youtu.be/AY9MnQ4x3zk
 
 ---
 
-## OP Code
-https://github.com/clear-code-projects/UltimatePygameIntro
+## Art And Audio Assets:
+- https://opengameart.org/content/platformer-art-pixel-edition
+- https://opengameart.org/content/5-chiptunes-action
+- https://github.com/clear-code-projects/UltimatePygameIntro
 
----
-
-## Art and Audio Assets:
-https://opengameart.org/content/platformer-art-pixel-edition
-https://opengameart.org/content/5-chiptunes-action
-https://github.com/clear-code-projects/UltimatePygameIntro
-
-
+<br />
 [Back To The Top](#read-me-template)
