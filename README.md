@@ -1,11 +1,11 @@
 # Pixel Runner
 
-### Table of Contents
+#####S Table of Contents
 
 - [Description](#description)
 - [How To Use](#how-to-use)
 - [References](#references)
-- [Art And Audio Assets](#art_and_audio_assets)
+- [Art And Audio Assets](#art-and-audio-assets)
 
 ---
 
@@ -48,5 +48,5 @@ Download or clone this repository to your desktop. Click on the file Pixel Runne
 - https://opengameart.org/content/5-chiptunes-action
 - https://github.com/clear-code-projects/UltimatePygameIntro
 
-<br />
+---//
 [Back To The Top](#read-me-template)
