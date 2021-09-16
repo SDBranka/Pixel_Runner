@@ -49,4 +49,4 @@ Download or clone this repository to your desktop. Click on the file Pixel Runne
 - https://github.com/clear-code-projects/UltimatePygameIntro
 
 \
-[Back To The Top](#read-me-template)
+[Back To The Top](#pixel-runner)
