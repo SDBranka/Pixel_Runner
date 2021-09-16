@@ -1,6 +1,6 @@
 # Pixel Runner
 
-#####S Table of Contents
+##### Table of Contents
 
 - [Description](#description)
 - [How To Use](#how-to-use)
