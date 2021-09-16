@@ -1,11 +1,12 @@
-import pygame
+import pygame, math
+import setup
 from Obstacle import Obstacle
 from Player import Player
 
 # methods
 # function to consistantly update and redraw score_surface
 def display_score():
-    current_time = (pygame.time.get_ticks() - start_time) / 1000
+    current_time = (pygame.time.get_ticks() - setup.start_time) / 1000
     score_surface = setup.test_font.render(f"Score: {math.floor(current_time)}", False, (64, 64, 64))
     score_rect = score_surface.get_rect(midtop = (400, 27))
     setup.screen.blit(score_surface, score_rect)

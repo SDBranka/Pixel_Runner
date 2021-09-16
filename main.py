@@ -53,7 +53,9 @@ while True:
         
     # game display
     if setup.game_active:
-        pygame.mixer.unpause()
+        # if score is 0 (new game) start bg music and loop it forever
+        if setup.score == 0:
+            pygame.mixer.music.play(-1)
 
         # display sky_surface
         sky_pos_x = 0
@@ -75,7 +77,7 @@ while True:
 
     # if game_active is false(new game/player death) display intro/game over screen
     else:
-        pygame.mixer.pause()
+        pygame.mixer.music.pause()
         # draw screen
         setup.screen.fill((94, 129, 162))
         setup.screen.blit(setup.player_stand, setup.player_stand_rect)
