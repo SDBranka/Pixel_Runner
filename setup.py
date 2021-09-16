@@ -24,11 +24,15 @@ game_active = False
 start_time = 0
 # store the score for global use
 score = 0
+
 # bg music
 path_to_music = "audio/Juhani_Junkala_[Retro_Game_Music_Pack]_Level_1.wav"
 pygame.mixer.music.load(path_to_music)
 # set sound volume. Between 0(silent) and 1(full volume)
 pygame.mixer.music.set_volume(0.2)
+# boolean variable to control if music is on
+music_on = False
+
 # create a GroupSingle instance of Player 
 player = pygame.sprite.GroupSingle()
 player.add(Player())
